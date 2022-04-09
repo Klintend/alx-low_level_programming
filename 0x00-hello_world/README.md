@@ -1,1 +1,1 @@
-# preprocessing, compiling, assembling and executing
+# compiling , preprocessing and executing
