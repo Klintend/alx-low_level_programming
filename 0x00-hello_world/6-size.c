@@ -9,7 +9,7 @@
 int main(void)
 {
 int i;
-char str[40] = "size of ";
+char str[] = "size of ";
 float f;
 long int li;
 long long int lli;
