@@ -9,15 +9,15 @@
 int main(void)
 {
 int i;
-char str[] = "size of ";
+char str[30] = "Size of ";
 float f;
 long int li;
 long long int lli;
 char c;
 printf("%s""a char: %lu byte(s)\n", str, (unsigned long)sizeof(c));
-printf("%s""an int: %d byte(s)\n", str, (int)sizeof(i));
-printf("%s""a long int: %ld byte(s)\n", str, (long int)sizeof(li));
-printf("%s""a long long int: %lld byte(s)\n", str, (long long int)sizeof(lli));
-printf("%s""a float: %g byte(s)\n", str, (float)sizeof(f));
+printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(i));
+printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(li));
+printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(lli));
+printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 return (0);
 }
