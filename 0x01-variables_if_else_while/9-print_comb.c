@@ -7,18 +7,22 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-int ASCII1 = 10;
-int x;
-int ASCII = 44;
-int _ASCII = 32;
-for (x = '0' ; x <= '9' ; x++)
+int digit1, digit2;
+for (digit1 = 0; digit1 < 9; digit1++)
 {
-putchar(x);
-putchar(ASCII);
-putchar(_ASCII);
+for (digit2 = digit1 + 1; digit2 < 10; digit2++)
+{    
+putchar((digit1 % 10) + '0');
+putchar((digit2 % 10) + '0');
+
+if (digit1 == 8 && digit2 == 9)
+continue;
+putchar(',');
+putchar(' ');
 }
-putchar(ASCII1);
-return 0;
+}
+putchar('\n');
+return (0);
 }
