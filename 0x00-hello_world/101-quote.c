@@ -10,5 +10,5 @@ int main(void)
 {
 char str[70] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 write(1, str, 59);
-return (0);
+return (1);
 }
