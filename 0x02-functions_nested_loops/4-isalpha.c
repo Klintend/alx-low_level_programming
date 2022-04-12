@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return 1 if c is a letter 
+ * _isalpha - Return 1 if c is a letter 
  * int c to print
  * Return: 0 Always
  */

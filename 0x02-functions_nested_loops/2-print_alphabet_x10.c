@@ -3,7 +3,7 @@
 /**
  * main -Entry point
  *
- * Printing alphabets x10
+ * print_alphabet_x10 - Printing alphabets x10
  *
  * Return: Always 0
  */

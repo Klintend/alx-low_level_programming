@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * int _abs - value absolute
- * the int to print
+ * _abs - value absolute
+ * @n: The int to print
  *
  * Return: Always 0
  */
