@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * _isalpha - Return 1 if c is a letter
+ * _isalpha - Return 1 if c is a letter. lowercase or uppercase
  * @c: The int to print
  * Return: 0 Always
  */

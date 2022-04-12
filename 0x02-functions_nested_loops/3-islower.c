@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
  * _islower - Short description, single line 
- * @c: conatins value compared
+ * @c: contains value to be compared
  *
  * Return: Always 0
  */
