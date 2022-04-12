@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print all natural numbers from n to 98
- * n is number to start counting from n to 98
+ * print_to_98 - print all natural numbers from n to 98
+ * @n: The number to start counting from n to 98
  * Return: Always 0
  */
 void print_to_98(int n)

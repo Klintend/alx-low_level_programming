@@ -3,13 +3,14 @@
 /**
  * main - Entry point
  *
- * _islower - single line and c conatins value compared
+ * _islower - Short description, single line 
+ * @c: conatins value compared
  *
  * Return: Always 0
  */
 int _islower(int c)
 {
-if (c < 'a' && c < 'z')
+if (c > 'a' && c < 'z')
 {
 return (1);
 }

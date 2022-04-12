@@ -3,8 +3,8 @@
 /**
  * main - Entry point
  *
- * _isalpha - Return 1 if c is a letter 
- * int c to print
+ * _isalpha - Return 1 if c is a letter
+ * @c: The int to print
  * Return: 0 Always
  */
 int _isalpha(int c)
