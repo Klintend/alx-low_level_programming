@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * _isalpha - Return 1 if c is a letter. lowercase or uppercase
- * @c: The int to print
+ * _isalpha - checks for alphabetic characters
+ * @c: The letter to print, lowercase or uppercase
  * Return: 0 and 1
  */
 int _isalpha(int c)
