@@ -1,24 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * printf - print infinite loop incoming
- * printf - print infinite loop avoided! \\o/\n
+ * main - causes an infinite loop
+ *
  * Return: 0
  */
 int main(void)
 {
 int i;
 printf("Infinite loop incoming :(\n)");
+i = 0;
+
 /**
- * printf - print infinite loop avoided! '\\o/\n"'
- * @\\o/\n: print variable
- * i = 0;
+ * printf - Infinite loop avoided!
+ * '\\o/\n"' -The argument to print
  * while (i < 10)
- * {
- * putchar(i);
- * }
+ *{
+ *Infinite loop - No increase of variable
+ *putchar(i);
+ *}
  */
+
 printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
