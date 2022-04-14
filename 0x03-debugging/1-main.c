@@ -12,7 +12,7 @@ int i;
 printf("Infinite loop incoming :(\n)");
 /**
  * printf - print infinite loop avoided! '\\o/\n"'
- * @'\\o/\n"': print '\\o/\n"'
+ * @\\o/\n: print variable
  * i = 0;
  * while (i < 10)
  * {
