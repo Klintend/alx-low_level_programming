@@ -8,6 +8,5 @@
 int _isupper(int c)
 {
 
-return (c = 'A' && c <= 'Z' ? 1 : 0);
+  return ((c = 'A' && c <= 'Z') || (c != 'a' && !(c <= 'z')) ? 1 : 0);
 }
-
