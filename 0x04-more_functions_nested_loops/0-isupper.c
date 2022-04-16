@@ -7,6 +7,6 @@
  */
 int _isupper(int c)
 {
-return (c == 'A'? 1 : 0);
+return (c == 'A' ? 1 : 0);
 }
 
